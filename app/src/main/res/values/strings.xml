@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CourseSelection</string>
+
+    <!--TextView-->
+    <string name="labelUsername">Username:</string>
+    <string name="labelPassword">Password:</string>
+
+    <!--EditText-->
+    <string name="inputUsername">Enter A Username</string>
+    <string name="inputPassword">Enter A Password</string>
+
+    <!--Button-->
+    <string name="buttonLogin">Login</string>
+
+    <!--Correct Credentials-->
+    <string name="correctUsername">Dan</string>
+    <string name="correctPassword">password</string>
+
+    <!--Toast Messages-->
+    <string name="loginSuccess">Login Is Successful</string>
+    <string name="wrongUsername">Please Enter A Valid Username</string>
+    <string name="wrongPassword">Please Enter A Valid Password</string>
+</resources>
