@@ -20,4 +20,14 @@
     <string name="loginSuccess">Login Is Successful</string>
     <string name="wrongUsername">Please Enter A Valid Username</string>
     <string name="wrongPassword">Please Enter A Valid Password</string>
+    
+    <string name="labelFName">First Name</string>
+    <string name="labelLName">Last Name</string>
+    <string name="labelPhone">Phone</string>
+    <string name="labelDOB">Date of Birth</string>
+    <string name="labelOff">Certificate</string>
+    <string name="labelOn">Associate Degree</string>
+    <string name="labelCert">Certificate</string>
+    <string name="labelDegree">Associate Degree</string>
+    <string name="buttonNext">Next</string>
 </resources>

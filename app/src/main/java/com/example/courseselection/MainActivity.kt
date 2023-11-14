@@ -1,5 +1,6 @@
 package com.example.courseselection
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -34,9 +35,12 @@ class MainActivity : AppCompatActivity() {
                 "Success" -> {
                     toast = getString(R.string.loginSuccess)
 
-                    inputUsername.requestFocus()
-                    inputUsername.setText("")
-                    inputPassword.setText("")
+                    val intent = Intent(this, MainClassList::class.java)
+                    startActivity(intent)
+
+//                    inputUsername.requestFocus()
+//                    inputUsername.setText("")
+//                    inputPassword.setText("")
                 }
                 "Wrong Password" -> {
                     //Print Wrong Password, Move Cursor To Password Field and Erase Input
