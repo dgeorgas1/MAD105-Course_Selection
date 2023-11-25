@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 "Success" -> {
                     toast = getString(R.string.loginSuccess)
 
-                    val intent = Intent(this, MainClassList::class.java)
+                    val intent = Intent(this, MainAboutMe::class.java)
                     startActivity(intent)
 
 //                    inputUsername.requestFocus()

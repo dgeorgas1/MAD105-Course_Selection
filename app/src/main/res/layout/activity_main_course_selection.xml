@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainCourseSelection">
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/labelCSHeader"
+        android:textSize="@dimen/labelSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkIOS"
+        android:layout_width="253dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/checkIOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeader" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupIOS"
+        android:layout_width="255dp"
+        android:layout_height="98dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkIOS">
+
+        <RadioButton
+            android:id="@+id/radioIOSTimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioIOSTimeOne" />
+
+        <RadioButton
+            android:id="@+id/radioIOSTimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioIOSTimeTwo" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkAndroid"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkAndroid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupIOS" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAndroid"
+        android:layout_width="257dp"
+        android:layout_height="99dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkAndroid">
+
+        <RadioButton
+            android:id="@+id/radioAndroidTimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioAndroidTimeOne" />
+
+        <RadioButton
+            android:id="@+id/radioAndroidTimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioAndroidTimeTwo" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkIOS2"
+        android:layout_width="251dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkIOS2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupAndroid" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupIOS2"
+        android:layout_width="251dp"
+        android:layout_height="99dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkIOS2">
+
+        <RadioButton
+            android:id="@+id/radioIOS2TimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioIOS2TimeOne" />
+
+        <RadioButton
+            android:id="@+id/radioIOS2TimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioIOS2TimeTwo" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkCapstone"
+        android:layout_width="251dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/checkCapstone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupIOS2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCapstone"
+        android:layout_width="252dp"
+        android:layout_height="100dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkCapstone">
+
+        <RadioButton
+            android:id="@+id/radioCapstoneTimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioCapstoneTimeOne" />
+
+        <RadioButton
+            android:id="@+id/radioCapstoneTimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/radioCapstoneTimeTwo" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonGoToSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonGoToSummary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupCapstone"
+        app:layout_constraintVertical_bias="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

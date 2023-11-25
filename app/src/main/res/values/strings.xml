@@ -20,7 +20,7 @@
     <string name="loginSuccess">Login Is Successful</string>
     <string name="wrongUsername">Please Enter A Valid Username</string>
     <string name="wrongPassword">Please Enter A Valid Password</string>
-    
+
     <string name="labelFName">First Name</string>
     <string name="labelLName">Last Name</string>
     <string name="labelPhone">Phone</string>
@@ -30,4 +30,32 @@
     <string name="labelCert">Certificate</string>
     <string name="labelDegree">Associate Degree</string>
     <string name="buttonNext">Next</string>
+
+    <string name="labelCSHeader">Select Your Course and Time</string>
+    <string name="checkIOS">MAD 107 IOS I</string>
+    <string name="radioIOSTimeOne">Mon/Wed 10 AM - 11:50 AM</string>
+    <string name="radioIOSTimeTwo">Tues/Thurs 12 PM - 1:50 PM</string>
+
+    <string name="checkAndroid">MAD 155 Android II</string>
+    <string name="radioAndroidTimeOne">Tues/Thurs 12 PM - 1:50 PM</string>
+    <string name="radioAndroidTimeTwo">Tues/Thurs 4 PM - 5:50 PM</string>
+
+    <string name="checkIOS2">MAD 157 IOS II</string>
+    <string name="radioIOS2TimeOne">Mon/Wed 12 PM - 1:50 PM</string>
+    <string name="radioIOS2TimeTwo">Fri 9 AM - 12:50 PM</string>
+
+    <string name="checkCapstone">MAD 257 Capstone Mobile Class</string>
+    <string name="radioCapstoneTimeOne">Mon/Wed 10 AM - 11:50 AM</string>
+    <string name="radioCapstoneTimeTwo">Fri 9 AM - 12:50 PM</string>
+
+    <string name="buttonGoToSummary">Next</string>
+    
+    <string name="labelStudent">Student:</string>
+    <string name="labelPhoneSummary">Phone:</string>
+    <string name="labelBirthday">Birthday:</string>
+    <string name="labelDegreePlan">Degree Plan:</string>
+    <string name="labelMajor">Major:</string>
+    <string name="labelNextSemester">Next Semester:</string>
+
+    <string name="buttonSummaryReturn">Go Back</string>
 </resources>
